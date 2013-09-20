@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain", "Chain\Chain.csproj", "{AEA62A73-17C5-448C-96B8-008D871675DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain.Test", "Chain.Test\Chain.Test.csproj", "{A634B77C-6565-4B4B-B6F6-01BF00724936}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C65CFF2B-08D6-4A21-8779-4D38BB0133E3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://chicken.com:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Chain\\Chain.csproj
+		SccProjectName1 = Chain
+		SccLocalPath1 = Chain
+		SccProjectUniqueName2 = Chain.Test\\Chain.Test.csproj
+		SccProjectName2 = Chain.Test
+		SccLocalPath2 = Chain.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA62A73-17C5-448C-96B8-008D871675DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA62A73-17C5-448C-96B8-008D871675DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA62A73-17C5-448C-96B8-008D871675DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA62A73-17C5-448C-96B8-008D871675DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A634B77C-6565-4B4B-B6F6-01BF00724936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A634B77C-6565-4B4B-B6F6-01BF00724936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A634B77C-6565-4B4B-B6F6-01BF00724936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A634B77C-6565-4B4B-B6F6-01BF00724936}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
