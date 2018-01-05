@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace Chain
 {
@@ -7,7 +6,14 @@ namespace Chain
     {
         public static OngoingChaining<T> Do<T>(Func<T> startFunction) where T : class
         {
-            return new OngoingChaining<T>(startFunction());
+            try
+            {
+                return new OngoingChaining<T>(startFunction());
+            }
+            catch
+            {
+                return new OngoingChaining<T>(null);
+            }
         }
 
         public static OngoingChaining<T> Do<T>(T startObject) where T : class
